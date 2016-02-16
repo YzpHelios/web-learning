@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+}
+#main{
+	width:960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: Century Gothic, Futura, Verdana;
+	color: #EAE021;
+	width: 100%;
+	margin-top: 30px;
+	padding: 1px 0;
+	text-align: center;
+	background-color: #DFF2D5;
+	text-decoration: underline;
+	font-size: 22pt;
+}
+img {
+	margin-top: 20px;
+}
+p {
+	padding-top: 15px;
+	font-size: 15px;
+	font-family: Georgia, Garamond;
+	color: #404040	
+}
+hr {
+	margin-top: 35px;
+	size:2;
+}
+.tital{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 100%;
+	color:rgb(179, 161, 34);
+	background-color:  #DFF2D5;
+	text-align: left;
+	text-decoration: underline;
+}
+ul  {
+	margin-top: 25px;
+	padding-left: 50px;
+	list-style-type: square;
+	font-family: Georgia, Garamond;
+ 	font-size: 15px;
+ 	color: #404040;
+}
+ol {
+    margin-top: 25px;
+	padding-left: 50px;
+	font-family: Georgia, Garamond;
+	font-size: 15px;
+ 	color: #404040;
+}
+span {
+    font-size: 17px;
+    font-family: Georgia, Garamond;
+    font-weight: bold;
+    color: black;
+}
+#conments {
+	width: 900px;
+	padding-left: 40px;
+
+}
+#conments p{
+	margin-top: 20px;
+	background-color: rgb(244, 226, 213);
+	font-family: Georgia, Garamond;
+}
+
+a {
+	
+	text-decoration: underline;
+	color: rgb(160, 160, 20);
+	font-family:  Georgia, Garamond;
+	font-size: 15px;
+}
