@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #fff;
+    background-image: url(./background.png);
+
+}
+h1 {
+	font-family: Tahoma, Verdana;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 30px;
+	text-align: center;
+	
+}
+
+#main {
+	margin: 0 auto;
+	width: 960px;
+	margin-top: 10px;	
+}
+#center {
+	width: 850px;
+	margin: 0 auto;
+	border: 4px solid;
+	border-color: rgb(115, 148, 158);
+	overflow: hidden;
+	position: relative;
+}
+
+#center-left-top {
+	background-image: url(./rottenbackground.png);
+	background-repeat: repeat-x;
+	width: 600px;
+	height: 83px;
+	line-height: 83px;
+}
+
+#center-left {
+	float: left;
+	
+}
+#center-right {
+	float: right;
+	padding-bottom: 20px;
+}
+.icon {
+	vertical-align: top;
+}
+.score {
+	color: red;
+	font-size: 70px;
+	font-family: Tahoma, Verdana;
+	font-weight: bold;
+	height: 83px;
+	line-height: 83px;	
+}
+.comments2 {
+	width: 246px;
+	border: 2px solid;
+	border-color: grey;
+	font-family:  Tahoma, Verdana;
+	font-size: 8pt;
+	padding: 10px;
+	font-weight: bold;
+}
+.pic {
+	float: left;
+}
+.pic2 {
+	float: left;
+	
+}
+#pic3 {
+	margin-top: 15px;
+}
+
+.name {
+	font-size: 8px;
+	font-family: Tahoma, Verdana;
+}
+.comments1 {
+	margin: 15px;
+	
+}
+#vertical {
+    margin-left: 2%;
+	width: 47%;
+	float: left;
+}
+#row {
+	margin-left: 2%;
+	float: left;
+	width: 47%;
+}
+#box {
+	background-color: rgb(162, 185, 100);
+	padding-top: 20px;
+
+}
+#mans {
+	margin-left: 10px;
+	padding-top: 10px;
+}
+.designation {
+	font-family: Tahoma, Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	margin-left: 15px;
+	
+}
+.man {
+	font-family: Tahoma, Verdana;
+	font-size: 8px;
+	margin-left: 40px;
+
+}
+a {
+	font-family: Tahoma, Verdana;
+	font-size: 8px;
+	margin-left: 50px;
+}
+#botton {
+	background-color: red;
+	margin-top: 10px;
+	width: 100%;
+  	height: 20px;
+
+  	position: absolute;
+  	bottom: 0;
+
+  	font-size: 8px;	
+
+  	background-color: rgb(162, 185, 100);
+  	text-align: center;
+  	line-height: 30px;
+}
