@@ -1,0 +1,205 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(./images/zoom-bg-1.jpg);
+	font-family: "Microsoft YaHei",Verdana,sans-serif;
+	font-size: 1.4em;
+	line-height: 1.4;
+}
+
+#wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  height: auto !important;
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+}
+#header {
+	text-align: center;
+	width: 100%;
+}
+
+.style {
+	font-family: "Microsoft YaHei",Verdana,sans-serif;
+    text-align: center;
+    display: block;
+
+}
+h1 {
+	display: block;
+	font-size: 2em;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+    font-weight: 500;
+    color: #fff;
+}
+.green {
+	color: green;
+	margin-right: 10px;
+}
+
+#nav ul {
+  width: 50%;
+  margin: 0 auto;
+  color: #fff;
+  margin-top: 20px;
+}
+
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+#nav li {
+  display: block;
+  float: left;
+  width: 33.3%;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+a {
+	text-decoration:none;
+	cursor: auto;
+	color: #fff;
+}
+#main {
+	width: 100%;
+	padding-bottom: 70px;
+}
+
+#picture {
+	overflow: hidden;
+	width: 100%;
+}
+/*图片翻转*/
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 240px;
+	height: 150px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+#picture {
+
+	width: 100%;
+	overflow: hidden;
+}
+.flip-container {
+	width: 240px;
+	height: 150px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.flipper img {
+	width: 100%;
+	height: 100%;
+}
+.flipper {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.picture {
+	width: 100%;
+	height: 100%;
+}
+
+#show-div {
+	width: 100%;
+	height: 150px;
+	text-align: center;
+}
+
+#show {
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	outline: none;
+}
+#box {
+	width: 440px;
+	height: 75px;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url(./images/toolbar-back-nologo.png);
+	overflow: hidden;
+	opacity: 0.7;
+}
+
+#load-content {
+	background-position: 262px 0;
+	float: left;
+}
+#close-botton {
+	background-position: 35px 0;
+	float: right;
+}
+.icon {
+	width: 35px;
+	height: 45px;
+	background-image: url(./images/toolbar.png);
+	border-radius: 20px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+#footer {
+	width: 100%;
+	height: 75px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+
+}
+#footer a {
+	color: green;
+}
+
+span {
+	opacity: 0;
+}
+
